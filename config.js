@@ -15,5 +15,5 @@ CAPTION: process.env.CAPTION === undefined ? '*BOMIBOT*' : process.env.CAPTION,
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'true' : process.env.ONLY_GROUP,
 INBOX_BL_MSG: process.env.INBOX_BL_MSG === undefined ? '*only group*' : process.env.INBOX_BL_MSG,
 HOST: process.env.HOST === undefined ? '-' : process.env.HOST,
-SESSION_ID: process.env.SESSION_ID === undefined ? '3fab194e-242c-427a-968d-01eb91d2ac67' : process.env.SESSION_ID
+SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID
 };
